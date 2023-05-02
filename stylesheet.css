@@ -1,0 +1,790 @@
+html {
+    background-color:rgba(122, 191, 191, .5);
+    
+}
+
+/*Mobile Screen*/
+
+body {
+    background-color:#F2F2F2;
+    width: 414px;
+    margin:auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 170px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p,dd,li,nav,input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+dt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+img {
+    width: 100%
+}
+
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    width:75px;
+    height: 75px;
+    position: absolute;
+}
+
+#hamburger svg {
+    position:relative;
+    top: 10px;
+    left:20px;
+}
+
+#hamburger nav a {
+    padding-left: 12px;
+}
+
+#hamburger label {
+    font-size: 20px;
+    font-family:'Bebas Neue';
+    color:black;
+    margin:6px 12px 6px 22px;
+}
+
+ menu li {
+    list-style: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+#logo {
+    width:200px;
+    margin:0;
+    background-color: #eb5428;
+    position:absolute;
+    top:0px;
+    left:100px;    
+}
+
+#logo svg {
+    position: relative;
+    top: 0px;
+    left:70px;
+}
+
+#about > p {
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+dl {
+    display: flex;
+    margin: 15px 15px;
+}
+
+dd {
+    margin-left: 10px;
+}
+
+menu {
+    display: flex;
+    margin:auto;
+    padding: 0;
+    justify-content: end;
+}
+
+menu > li {
+    display:flex;
+    flex-direction: column;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    color:#eb5428
+}
+
+#details > h2 {
+    margin-bottom: 12px;
+}
+
+#ingredients > ul {
+    padding-left: 30px;
+}
+
+#ingredients li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ingredients ol {
+    padding-right: 10px;
+    padding-left: 25px;
+    margin-top: 0px;
+}
+
+#ingredients h2 {
+    margin-bottom: 0px;
+}
+
+#avatar {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80px;
+    height: 80px;
+    position: relative;
+    top:-3150px;
+    left: 345px;
+}
+
+#avatar > a {
+    position:relative;
+    padding-left:20px;
+}
+
+#avatar > label {
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive;
+    color:black;
+    margin:0;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav > li {
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive;
+    color:black;
+    padding-top:5px;
+}
+
+#searchbar {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    top: -3125px;
+    left: 75px;
+}
+
+#searchbar > svg {
+    background-color: #eb5428;
+}
+
+input[type=text] {
+    border: 2px solid #eb5428;
+    width:224px;
+}
+
+input[type=text]::placeholder {
+    font-family:'Montserrat', sans-serif; 
+    font-size: 16px;
+}
+
+#socialMedia {
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    top: -100px;
+}
+
+#socialMedia li {
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive;
+    color:#eb5428;
+    display:flex;
+    flex-direction: column;
+}
+
+#socialMedia svg {
+    position: relative;
+    left: 30px;
+    top: 25px;
+}
+
+#sideDish {
+    background-color:#7ABFBF;
+}
+
+.cards img {
+    width:100px;
+    padding-left:10px;
+}
+
+.cards h3 {
+    text-align: left;
+    position: relative;
+    top:55px;
+    left:125px;  
+}
+
+.cards {
+    height:150px;
+}
+
+#dishcards {
+    height:700px;
+}
+
+#sideDish h2 {
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.cards p {
+    margin-top:5px;
+    margin-bottom:5px;
+    position: relative;
+    top:-65px;
+    left:125px;  
+}
+
+.stars {
+    margin-top:5px;
+    margin-bottom:5px;
+    position: relative;
+    top:-90px;
+    left:195px;  
+}
+
+footer img {
+    width: 50%;
+    position: relative;
+    left: 100px;
+    bottom: 124px;
+}
+
+footer p {
+    font-size: 20px;
+    font-family:'Bebas Neue';
+    color:black;
+    position:relative;
+    left: 150px;
+    top: 175px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    width: 375px;
+    position: absolute;
+    top: 0;
+    z-index:1;
+    text-transform: uppercase;
+    overflow:visible;
+}
+
+nav li img {
+    visibility:hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #eb5428;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+nav li a {
+    display: flex;
+    height: 70px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li {
+    height: 100px;
+}
+
+a:hover, input:hover {
+    background-color: #ffffff;
+    color:#eb5428;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 30px 20px;
+    position: relative;
+    user-select: none;
+}
+
+label span {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color .2s ease-out;
+    width: 18px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ ul {
+    max-height: 800px;
+}
+
+#hamburger:checked {
+    display:none;
+}
+
+input[type=checkbox] :checked ~ label span {
+    
+    background: transparent;
+}
+
+/*768px Screen*/
+
+@media screen and (min-width:768px) {
+
+    body {
+        width: 768px;
+        height:100%;
+        margin: auto;
+    }
+
+    input[type=checkbox]:disabled {
+        background-color: #7ABFBF;
+    }
+
+    nav ul {
+        overflow: visible;
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 768px;
+    }
+
+    nav li a {
+        display:flex;
+        flex-direction: column;
+        padding: 0px;
+        font-size: 16px;
+        font-family: Bebas Neue; 
+        color:#eb5428
+    }
+
+    nav li {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav li img {
+        visibility: visible;
+        width: 70px;
+        height:70px;
+    }
+
+    nav a {
+        font-family:'Bebas Neue';
+        text-align: center;
+        color:#eb5428;
+    }
+
+    a:hover, input:hover {
+        background-color: #eb5428;
+    }
+
+    label span, input[type=checkbox] {
+        display: none;
+    }
+
+    #logo {
+        width:60px;
+        margin:0;
+        background-color: #eb5428;
+        position:absolute;
+        left:0px;
+    }
+
+    #logo svg {
+        position: relative;
+        left: 0px;
+    }
+
+    h1 {
+        padding-top: 130px;
+        padding-left: 24px;
+        text-align:left;
+        transform: translate(0px,95px);
+    }
+
+    menu {
+        background-color:#F2F2F2;
+        background-color: rgba(255,255,255,0.5);
+        position: relative;
+        z-index: 99;
+        justify-content: space-evenly;
+        transform: translate(0px,95px);
+    }
+
+    #about img {
+        position: relative;
+        z-index: 1;
+    }
+
+    #details dl {
+        text-align: center;
+        padding-left: 270px;
+    }
+
+    #paragraphs {
+        padding-left:12px;
+        padding-right: 12px;
+    }
+
+    #ingredients {
+        display:grid;
+        grid-template-columns: 200px 1fr;
+        padding-right: 10px;
+    }
+
+    #side-dish-cards {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom:25px;
+    }
+
+    .cards {
+        height: 200px;
+        align-items: center;
+    }
+
+    .cards p {
+        position:relative;
+        left: 125px;
+        top: -80px;
+    }
+
+    .cards svg {
+        position: relative;
+        left: 195px;
+        top: -115px;
+    }
+
+    .cards p ~ p {
+        font-weight: 700;
+    }
+
+    .cards h3 {
+        position: relative;
+        top: 60px;
+        left: 125px;
+        text-align:left;
+    }
+
+    .cards:hover {
+        background-color: #eb5428;
+        color:#ffffff;
+    }
+
+    #sideDish h2 {
+        margin-bottom: 0px;
+        position: relative;
+        top: 40px;
+    }
+
+    #avatar {
+        position: relative;
+        top:-3075px;
+        left: 690px;
+    }
+
+    #avatar a {
+        height: 40px;
+    }
+
+    #avatar svg {
+        position: relative;
+        left: 0px;
+    }
+
+    #searchbar {
+        position:relative;
+        top: -3150px;
+        left: 410px;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #socialMedia {
+        width: 500px;
+        justify-content: space-evenly;
+        position:relative;
+        left: 280px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+    #socialMedia > li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #socialMedia label {
+        font-size: 15px;
+        font-family:'Bebas Neue', cursive;
+        text-align: center;
+        color:#eb5428;
+    }
+
+    footer {
+        height:200px;
+    }
+
+    footer > p {
+        font-family:'Bebas Neue', cursive;
+        font-size: 20px;
+        margin: 6px;
+        position: relative;
+        top: 40px;
+        left: 110px;
+    }
+
+    footer > img {
+        width: 200px;
+        position:relative;
+        top: -270px;
+        left: 70px;
+    }
+
+    .stars {
+        position: relative;
+        top:10px;
+        left:5px;
+    }
+
+    nav li:hover {
+        background-color: #eb5428;
+    }
+
+    nav li > a:hover {
+        color:#ffffff;
+    }
+
+    #avatar:hover {
+        background-color: #eb5428;
+    }
+
+    menu li:hover {
+        background-color: #eb5428;
+        color:#ffffff;
+        }
+        
+    input:hover {
+        background-color: #ffffff;
+        color:#eb5428;
+    } 
+}
+
+    /* 1280px Screen */
+
+    @media screen and (min-width:1280px) {
+
+        body {
+            width: 1280px;
+            margin:auto;
+        }
+
+        h1 {
+            text-align:center;
+            padding-top: 50px;
+            position: relative;
+            top: 100px;
+        }
+
+        menu {
+            flex-direction:column;
+            width: 145px;
+            height: 750px;
+            justify-content: flex-start;
+            margin-top:0px;
+            position: relative;
+            top: -90px;
+            border: 1px solid #eb5428;
+        }
+
+        menu li:hover {
+        background-color: #eb5428;
+        color:#ffffff;
+        }
+
+    nav ul {
+        position: relative;
+        left: 245px;
+        top: -60px;
+    }
+
+    #about {
+        display:grid;
+        grid-template-columns: 150px 500px 1fr ;
+        margin-top: 200px;
+    }
+
+    #about img {
+        width: 100%
+    }
+
+    #paragraphs {
+        padding-left: 24px;
+        line-height: 2;
+    }
+
+    #details {
+        background-color: #0D0D0D;
+        color:#7ABFBF;
+    }
+
+    #descriptionList {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 1280px;
+    }
+
+    #descriptionList > dl {
+        padding: 0;
+        display:flex;
+        flex-direction: column;
+    
+    }
+
+    #side-dish-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 400px;
+    }
+
+    #side-dish-cards img {
+    width: 70%;
+    position: relative;
+    left: 40px;
+    top:-20px;
+    }
+
+    #side-dish-cards h3 {
+        position: relative;
+        top:265px;
+        left: 50px;
+        text-align:left;
+    }
+
+    #side-dish-cards p {
+        position: relative;
+        top:5px;
+        left: 50px;
+    }
+
+    .cards svg {
+    position: relative;
+    top:-30px;
+    left: 125px;
+    }
+
+    #socialMedia {
+        position:relative;
+        top: -100px;
+        left: 750px;
+    }
+
+    #socialMedia label {
+        padding: 5px;
+        position: relative;
+        top: 25px;
+        left:25px;
+    }
+
+    #socialMedia label:hover {
+        background-color: #eb5428;
+        color:#ffffff;
+    }
+
+    #searchbar {
+        position:relative;
+        top: -2075px;
+        left: 525px;
+    }
+
+    #searchbar:active {
+        background-color:#ffffff;
+        border: 1px solid #000000;
+    }
+
+    #avatar {
+        position: relative;
+        top:-2140px;
+        left: 1190px;
+        
+    }
+
+    #avatar:hover {
+        background-color: #eb5428;
+    }
+
+    nav li:hover {
+        background-color: #eb5428;
+        
+    }
+
+    nav li > a:hover {
+        color:#ffffff;
+    }
+
+    #logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    #logo svg {
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+
+    footer img {
+        width: 250px;
+        position: relative;
+        top: -250px;
+        left: 25px;
+    }
+
+    footer p {
+        position: relative;
+        top: -140px;
+        left: 340px;
+    }
+
+    }
